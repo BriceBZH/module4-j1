@@ -1,0 +1,58 @@
+
+/* *****************************************************************
+GENERALITIES
+***************************************************************** */
+
+article + article {
+	margin-top: 2em;
+}
+
+h2,
+h3 {
+	margin-top: 0;
+}
+
+.box {
+	margin: 4em;
+	padding: 4em;
+	color: rgba(0,0,0,0.7);
+	background-color: #eee;
+}
+
+/********** position ********/
+.sticky {
+	background-color: #f9c;
+	position: sticky;
+	top: 0;
+	z-index: 3;
+}
+.static {
+	background-color: #9c6;
+	position: static;
+	left: -5em;
+}
+.relative {
+	background-color: #fc3;
+	position: relative;
+	left:-10em;
+	z-index: 1;
+}
+.relative-absolute {
+	position: relative;
+}
+.relative-absolute div {
+	position: absolute;
+	background-color:#f93;
+	padding: 2em;
+	right:0;
+	top: 0;
+	z-index: 2;
+}
+.fixed {
+	background-color: #69c;
+	position: fixed;
+	right:0;
+	top: 0;
+	width: 20em;
+	z-index: 4;
+}

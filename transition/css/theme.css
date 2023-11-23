@@ -1,0 +1,18 @@
+menu {
+	list-style: none;
+	display:flex;
+	background-color: #DD5735;
+	color: #fff;
+	justify-content: space-around;
+	padding:0;
+	margin: 12em 0;
+}
+li {
+	transition: transform 0.5s, background-color 1s, color 0.2s ;
+	padding: 1em;
+}
+li:hover {
+	transform: scale(1.5);
+	background-color: #fc3;
+	color: #333;
+}

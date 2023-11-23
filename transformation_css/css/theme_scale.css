@@ -1,0 +1,18 @@
+article {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 500px;
+}
+.truc {
+	padding: 1em;
+	border: 10px solid #DD5735;
+	border-radius: 50%;
+}
+
+.scale {
+	transition: all 1s;
+}
+.scale:hover {
+	transform: scale(0.6);
+}

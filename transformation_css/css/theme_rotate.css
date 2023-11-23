@@ -1,0 +1,14 @@
+article {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 500px;
+}
+
+.rotate {
+	transform: rotate(90deg);
+	transition: all 1s;
+}
+.rotate:hover {
+	transform: rotate(0);
+}
